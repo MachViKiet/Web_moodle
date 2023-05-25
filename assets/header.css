@@ -1,0 +1,46 @@
+.main_web .header{
+    background-color: #22441c;
+    height: 52px;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+.header .text{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    margin: 0 16px;
+    height: 52px;
+    position: relative;
+    @media (min-width: 1280px) {
+        margin: 0 5%;
+    }
+}
+.header .text .text1{
+    @media (max-width: 900px) {
+        display:none
+    }
+}
+ .header .text1 li{
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    transform: translateY(-50%);
+    margin-top: 26px;
+}
+.header .text .text2
+{
+    font-size: 15px;
+    position: absolute;
+    transform: translateY(-50%);
+    margin-top: 26px;
+    right: 1%;
+}
+.header .text .text1 i,
+.header .text .text2 li{
+    color: white;
+}

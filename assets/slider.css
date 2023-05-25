@@ -1,0 +1,82 @@
+.main_web .slider{
+    padding-top: 52px;
+    width: 100%;
+    height: fit-content;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_web .slider .container-img{
+    height: 54px;
+    display: inline-block;
+    margin: 0 16px;
+    @media (min-width: 1280px) {
+        margin: 0 5%;
+    }
+    margin: 30px 16px ;
+    position: relative;
+}
+.slider .logo-img {
+    object-fit: contain;
+}
+.slider .HCMUS-img{
+    height: 90%;
+}
+.slider .Toggle-img{
+    height: 100%;
+    position: absolute;
+    right: 20px;
+    height: 50%;
+    margin-top: 36px;
+    transform: translateY(-50%);
+}
+
+.slider .subnav li{
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px 25px; 
+    background-color: white;
+    text-align: center;
+}
+.slider .nav {
+    margin-right: 16px;
+    position: relative;
+    background-color: white;  
+    @media (min-width: 1280px) {
+        margin-right: 5%;
+    }
+    cursor: pointer;
+}
+.slider .nav:hover .language-btn{
+    border-bottom: 2px solid red;
+    background-color: white;    
+}
+.slider .nav .subnav li:hover,
+.slider .nav .subnav li:hover button{
+    background-color: #22441c;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    cursor: pointer;
+}
+.slider .nav:hover .subnav{
+    display: block; 
+    width: 100%;
+    cursor: pointer;
+}
+.slider .nav .language-btn{
+    padding: 30px 25px;  
+}
+.slider .nav .language-btn p,
+.slider .nav .language-btn i{
+    font-size: 24px;
+    color: red;
+    font-weight: 700;
+}
+.slider .subnav {
+    position: absolute;
+    display: none;
+}
+

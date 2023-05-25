@@ -1,0 +1,12 @@
+.modal-language{
+    background-color: black;
+    /* opacity: 0.2; */
+    height: 500px
+}
+.modal-language .container-modal{
+    height: 200px;
+    background-color:blueviolet;
+}
+h1{
+    color: aquamarine;
+}
