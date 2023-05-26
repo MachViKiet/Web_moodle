@@ -16,6 +16,32 @@
 </head>
 
 <body>
+    <div class="modal-login">
+        <div class="container-modal">
+            <div class="header">
+                <!-- <div class="title">Log In</div> -->
+                <div class="container-img">
+                    <img class="logo-img logIn-img" src="./assets/img/fit-logo-eng--V5.png" alt="">
+                </div>
+                <div class="close-button js-close-button">
+                    <i class="ti-close"></i>
+                </div>
+            </div>
+            <div class="content">
+                <div class="input-container">
+                    <input type="ID" class="modal-input" placeholder="Enter nameuser">
+                    <input type="Password" class="modal-input" placeholder="Enter passwords">
+                    <input name="Remember-username" type="radio" value="Re-Nameuser" />Remember username
+                    <button>Log in</button>
+                </div>
+                <div class="script">
+                    <li class="script1"><a class="Link" href="">Forgotten your username or password?</a></li>
+                    <li class="script2">Cookies must be enabled in your browser</li>
+                </div> 
+            </div>
+        </div>
+    </div>
+
     <div class="main_web">
         <div class="header">
             <div class="text">
@@ -47,19 +73,27 @@
             </div>
         </div>
         <div class="content">
-
+            <div class="js-LogIn-button">Log in</div>
         </div>
         <div class="footer">
 
         </div>
     </div>
-    <div class="modal-language">
-        <div class="container-modal">
-            <h1>Làm biếng code tiếp quá! Xin thông cảm</h1> 
-        </div>
-    </div>
     <script>
+        const Open_logInBtn = document.querySelector('.js-LogIn-button')
+        const modal = document.querySelector('.modal-login')
+        const Close_logInBtn = document.querySelector('.js-close-button')
 
+        function showBuyTickets(){
+            modal.classList.add('open')
+        }
+        function closeBuytickets(){
+            modal.classList.remove('open')
+        }
+       
+        Open_logInBtn.addEventListener('click',showBuyTickets)
+        Close_logInBtn.addEventListener('click',closeBuytickets)
+          
     </script>
 </body>
 

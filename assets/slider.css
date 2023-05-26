@@ -15,7 +15,6 @@
         margin: 0 5%;
     }
     margin: 30px 16px ;
-    position: relative;
 }
 .slider .logo-img {
     object-fit: contain;
@@ -25,7 +24,6 @@
 }
 .slider .Toggle-img{
     height: 100%;
-    position: absolute;
     right: 20px;
     height: 50%;
     margin-top: 36px;
@@ -41,7 +39,6 @@
 }
 .slider .nav {
     margin-right: 16px;
-    position: relative;
     background-color: white;  
     @media (min-width: 1280px) {
         margin-right: 5%;
@@ -50,7 +47,7 @@
 }
 .slider .nav:hover .language-btn{
     border-bottom: 2px solid red;
-    background-color: white;    
+    /* background-color: white;     */
 }
 .slider .nav .subnav li:hover,
 .slider .nav .subnav li:hover button{
@@ -63,7 +60,7 @@
 }
 .slider .nav:hover .subnav{
     display: block; 
-    width: 100%;
+    width: 194px;
     cursor: pointer;
 }
 .slider .nav .language-btn{

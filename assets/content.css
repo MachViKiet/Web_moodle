@@ -1,0 +1,17 @@
+.content{
+    height: 1000px;
+}
+
+.content .LogIn-button{
+    background-color:brown;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
