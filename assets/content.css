@@ -1,17 +1,36 @@
-.content{
-    height: 1000px;
+.main_web .content {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.content .LogIn-button{
-    background-color:brown;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    margin-top: 20px;
-    width: 200px;
-    height: 150px;
-    line-height: 150px;
-    border-radius: 50%;
-    font-size: 40px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.main_web .content .LogIn-button {
+    background-color: rgb(42, 40, 201);
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    margin: 30px 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px; 
+    border-bottom-left-radius: 50px; 
+    border-bottom-right-radius: 50px;
+    border: 1px solid black;
+}
+.main_web .content .content-container{
+    height: 250px;
+}
+.content .content-container .LogIn-button{
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.content .content-container .LogIn-button:hover{
+    background-color: rgba(42, 40, 201,0.7);
+    border: 0;
 }

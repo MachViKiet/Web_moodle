@@ -25,6 +25,9 @@
     background-color:white;
     /* border-radius: 2%;
     border: 2px solid black; */
+    border-radius: 20px 20px 20px 20px;
+    border: 0.2px solid black;
+    animation: FadeIn ease 0.3s;
 }
 
 .modal-login .container-modal .header {
@@ -35,6 +38,7 @@
     display: flex;
     background-color: rgb(49, 49, 91);
     position: relative;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .modal-login .header .container-img {
@@ -42,6 +46,7 @@
     max-width: 700px;
     width: 100%;
     height: fit-content;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .modal-login .container-modal .header .logIn-img {
@@ -149,6 +154,19 @@ input{
     background-color: rgb(121, 112, 112);
 }
 
+.modal-login .input{
+    padding: 0 2px;
+}
+
 .modal-login.open{
     display: flex;
+}
+
+@keyframes FadeIn {
+    from{
+        transform: translateY(-20px);
+    }
+    to{
+        transform: translateY(0);
+    }
 }
