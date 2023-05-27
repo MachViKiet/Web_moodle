@@ -7,10 +7,6 @@
     background-color: #2d2d2d;
     height: 489px;
 }
-.footer .footer-container{
-    position:relative;
-    height: 100%;
-}
 .footer .contact {
     padding: 50px 10%;
     width: 100%;
@@ -44,9 +40,7 @@
     width: 90%;
     font-size: 29px;
 }
-.logo.inf-header{
 
-}
 .footer .contact .inf {
     color: aliceblue;
     padding: 5px 0;
@@ -103,7 +97,7 @@
     text-decoration: none;
 }
 
-.footer .ref {
+.ref {
     width: 100%;
     height: 54px;
     background-color: #22441c;
@@ -111,13 +105,13 @@
     bottom: 0;
 }
 
-.footer .ref p {
+.ref p {
     color: #b0e2a6;
     width: 100%;
     text-align: center;
 }
 
-.footer .ref a {
+.ref a {
     color: rgb(211, 149, 34);
     font-weight: 900;
     line-height: 54px;
