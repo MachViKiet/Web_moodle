@@ -2,10 +2,8 @@
     background-color: #22441c;
     height: 52px;
     position: fixed;
-    width: 100%;
+    width: 100vw;
 }
-
-
 
 .header .text{
     font-size: 15px;

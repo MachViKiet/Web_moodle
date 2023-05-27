@@ -1,0 +1,125 @@
+.footer {
+    width: 100vw;
+    height: fit-content;
+    bottom: 0;
+    border: 1px solid black;
+    /* padding: 50px 10%; */
+    background-color: #2d2d2d;
+    height: 489px;
+}
+.footer .footer-container{
+    position:relative;
+    height: 100%;
+}
+.footer .contact {
+    padding: 50px 10%;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-block {
+    height: fit-content;
+    width: 600px;
+}
+
+.footer .footer-block .name-school {
+    width: 500px;
+}
+
+.footer .inf {
+    display: block;
+}
+
+.footer .contact .info .inf:hover {
+    font-size: 14px;
+    color: #52a742;
+    text-decoration: none;
+}
+
+.footer .contact .inf-header {
+    color: #52a742;
+    padding: 0 0 15px 0;
+    width: 90%;
+    font-size: 29px;
+}
+.logo.inf-header{
+
+}
+.footer .contact .inf {
+    color: aliceblue;
+    padding: 5px 0;
+    width: 90%;
+    font-size: 17px;
+}
+
+.footer .contact a {
+    text-decoration: underline;
+    color: #52a742;
+}
+
+.footer .logo .logo-img {
+    height: 40px;
+    width: fit-content;
+}
+
+.footer .contact-us .ti {
+    color: black;
+    font-size: 30px;
+}
+
+.footer .contact-us .icon-header .ti {
+    font-size: 17px;
+}
+
+.footer .contact-us .inf .icon-header {
+    display: inline-block;
+    padding: 1px;
+    margin-right: 2px;
+    width: fit-content;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+.footer .contact-us .icon {
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    display: inline-block;
+    padding: 5px 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 0.5rem;
+}
+
+.footer .icon:hover {
+    transform: translateY(5px);
+    transition-duration: .3s;
+}
+
+.footer .icon a {
+    text-decoration: none;
+}
+
+.footer .ref {
+    width: 100%;
+    height: 54px;
+    background-color: #22441c;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer .ref p {
+    color: #b0e2a6;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .ref a {
+    color: rgb(211, 149, 34);
+    font-weight: 900;
+    line-height: 54px;
+    text-decoration: underline;
+}

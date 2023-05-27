@@ -7,7 +7,8 @@
 }
 .main_web
 {
-    min-height: auto;
+    position: flex;
+    flex-flow: column;
     background-color:white;
 }
 ul,
@@ -15,6 +16,11 @@ li,
 ol{
     padding-inline-start: 0;
     list-style-type: none;
+}
+footer{
+    height: 10px;
+    width: 100%;
+    background-color: aqua;
 }
 a{
     text-decoration: none;

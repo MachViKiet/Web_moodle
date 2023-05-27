@@ -7,21 +7,28 @@
 }
 
 .main_web .content .LogIn-button {
-    background-color: rgb(42, 40, 201);
+    /* background-image: linear-gradient(120deg,blue,white); */
+    background-image: radial-gradient(blue,rgb(64, 64, 211),white);
     height: 50px;
     width: 100%;
     line-height: 50px;
     cursor: pointer;
     text-align: center;
-    margin: 30px 0;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px; 
     border-bottom-left-radius: 50px; 
     border-bottom-right-radius: 50px;
-    border: 1px solid black;
+    border: 0.1px solid #ffe5d8;
+    margin-top: 30px ; 
+}
+.main_web .content .content-container h1{
+    margin-top: 70px ; 
 }
 .main_web .content .content-container{
     height: 250px;
+    border-radius: 50px;
+    padding: 0 50px;
+    /* border: 0.5px solid black; */
 }
 .content .content-container .LogIn-button{
     color: white;
@@ -31,6 +38,7 @@
 }
 
 .content .content-container .LogIn-button:hover{
-    background-color: rgba(42, 40, 201,0.7);
+    background-image: none;
+    background-color: rgba(42, 40, 201);
     border: 0;
 }
